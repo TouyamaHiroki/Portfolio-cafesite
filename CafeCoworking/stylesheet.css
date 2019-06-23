@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  color: #424242;
+  font-family: 'MS Sans Serif','PT Sans','Helvetica',cursive;
+}
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 100px;
+}
+header {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+}
+
+header a {
+  float: right;
+  margin-right: 20px;
+}
+.center {
+  text-align: center;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+.top-wrapper {
+  height: 100%;
+  background-image: url("e-mail.png");
+  background-size: cover;
+  background-position;
+}
+.top-image {
+  width: 40%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 20%;
+  padding-bottom: 30%;
+}
+.middle-wrapper {
+  background-image: url("web.001.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.middle-sentence h2 {
+  margin-top: 15%;
+  margin-bottom: 10%;
+  text-shadow:2px -1px 3px rgba(0,0,0,0.20);
+}
+.middle-sentence {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+}
+.gallery {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 15%;
+}
+h3 {
+  margin-bottom: 20px;
+}
+.parent {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.box {
+  box-sizing: border-box;
+  max-width: 900px;
+  width: 90%;
+}
+.box img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.dot img{
+  width: 40%;
+  display: block;
+  margin: 7% auto;
+  opacity: 0.5;
+}
+.menu {
+  box-sizing: border-box;
+  max-width: 1200px;
+  width: 90%;
+  text-align: center;
+}
+.menu-even {
+  margin-top: 50%;
+  width: 80%;
+}
+.menu-odd {
+  margin-top: 30%;
+  width: 80%;
+}
+.menu img {
+  border-radius: 200px;
+  margin-bottom: 5px;
+}
+.menu p {
+  font-family: 'SignPainter';
+  font-size: 130%;
+}
+.image-shadow {
+  box-shadow: 0 0 5px gray;
+}
+.space-all {
+  background-image: url("back.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.price {
+  margin-top: 10%;
+  background-color: #F7F6F9;
+  padding-bottom: 10%;
+}
+.price h2 {
+  margin-top: 15%;
+  margin-bottom: 10%;
+  text-shadow:2px -1px 3px rgba(0,0,0,0.20);
+}
+th, td {
+  background-color: white;
+}
+.contact {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-image: url("contact.003.jpeg");
+  background-size: cover;
+}
+.border {
+  padding: 20px 60px;
+  border-radius: 80px;
+  font-size: 80%;
+  box-shadow: 0px 0px 2px gray;
+}
+input {
+  width: 70%;
+}
+.contact p {
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 15px;
+}
+.contact h2 {
+  margin-bottom: 10%;
+}
+.name {
+  margin-bottom: 3%;
+}
+.mail {
+  margin-bottom: 3%;
+}
+.detail {
+  margin-bottom: 3%;
+  padding-bottom: 20%;
+}
+.go {
+  width: 15%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #00FDFF;
+  box-shadow: 0px 0px 2px #424242;
+}
+footer {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
